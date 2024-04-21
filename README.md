@@ -1,12 +1,5 @@
-To create an index page for your document, I'll start by examining the contents of the file you uploaded (`grpc.md`). This will help me understand the structure of the document and appropriately create an organized index page. Let's take a look at the contents first.
 
-Based on the content snippet from your document, it appears to be structured into chapters, each discussing various aspects of gRPC. Here's a draft for an index page that reflects the chapters outlined in your document:
-
----
-
-# Index Page
-
-**Book Title:** "Next-Generation API Design with gRPC: A Comprehensive Guide for Modern Organizations"
+## "Next-Generation API Design with gRPC"
 
 ### Chapters:
 1. **[Understanding gRPC](#chapter-1-understanding-grpc)**
