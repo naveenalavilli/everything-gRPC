@@ -1,4 +1,3 @@
-
 ## "Next-Generation API Design with gRPC"
 
 ### Chapters:
@@ -52,7 +51,7 @@
     - Detailed protocol descriptions
     - Security best practices
 
---------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### Chapter 1: Understanding gRPC
 
@@ -66,7 +65,7 @@ gRPC is an open-source Remote Procedure Call (RPC) framework initially developed
 
 gRPC employs HTTP/2, enhancing the communication channel between client and server with several advanced features:
 
-- **Multiplexing**: Multiple requests and responses can be sent over a single TCP connection, reducing latency and improving resource utilization.
+- **Multiplexing**: Allows multiple requests and responses to be sent over a single TCP connection, reducing latency and improving resource utilization.
 
 ```plaintext
 Example: In HTTP/1.1, each request/response pair needs a separate TCP connection. HTTP/2 can handle multiple exchanges over one connection simultaneously.
@@ -112,7 +111,9 @@ service ContactService {
 
 gRPC supports a wide range of features that cater to various communication needs:
 
-- **Four Types of Communication**: Unary, server streaming, client streaming, and bidirectional streaming.
+- **Four Types of Communication**: Unary, server streaming, client streaming, and
+
+ bidirectional streaming.
 
 ```protobuf
 // Example gRPC service with different method types
